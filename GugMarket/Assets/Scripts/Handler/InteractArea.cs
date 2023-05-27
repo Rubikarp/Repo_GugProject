@@ -12,14 +12,23 @@ public class InteractArea : SingletonMonoBehaviour<InteractArea>
     [ReadOnly] public Bounds area = new Bounds(Vector2.zero, Vector2.one);
     [SerializeField] public Vector2 areaSize =Vector2.one;
 
+    [SerializeField] public KitchenHandler kitchen;
+    [SerializeField] public Transform cursor;
+    [SerializeField] public Vector2 axisMultiplier = Vector2.one;
+
     void OnValidate()
     {
         area = new Bounds(transform.position, areaSize);
     }
+    void Start()
+    {
+        OnValidate();
+    }
 
     void Update()
     {
-        
+        var newPos = new Vector2(kitchen.currentDish.stat.axisSweetSalty, kitchen.currentDish.stat.axisSpicyFleshy);
+        cursor.localPosition = Vector2.Lerp(cursor.localPosition, newPos * axisMultiplier, Time.deltaTime);
     }
 
     public Vector3 GetMousePos()
