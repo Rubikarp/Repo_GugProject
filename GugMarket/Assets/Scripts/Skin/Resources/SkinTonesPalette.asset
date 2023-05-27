@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546fc43d78e6871439eb3d53310e4c0f, type: 3}
+  m_Name: SkinTonesPalette
+  m_EditorClassIdentifier: 
+  skinTones:
+  - {r: 0.15294118, g: 0.13333334, b: 0.14117648, a: 1}
+  - {r: 0.22352943, g: 0.1764706, b: 0.14901961, a: 1}
+  - {r: 0.3647059, g: 0.25882354, b: 0.19607845, a: 1}
+  - {r: 0.5137255, g: 0.36862746, b: 0.27450982, a: 1}
+  - {r: 0.64705884, g: 0.5058824, b: 0.38431376, a: 1}
+  - {r: 0.7725491, g: 0.6745098, b: 0.5647059, a: 1}
+  - {r: 0.9058824, g: 0.8588236, b: 0.7686275, a: 1}
+  - {r: 0.909804, g: 0.8745099, b: 0.7960785, a: 1}
+  - {r: 0.91372555, g: 0.89019614, b: 0.82745105, a: 1}
+  - {r: 0.882353, g: 0.854902, b: 0.8196079, a: 1}
