@@ -43,14 +43,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -105,7 +105,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Blender_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 801
+        width: 302
+        height: 136
+      alignment: 9
+      pivot: {x: 0.4878612, y: 0.3921769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90333baf05c3d864c998b26df75890d6
+      internalID: 1866785446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blender_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 280
+        width: 330
+        height: 476
+      alignment: 9
+      pivot: {x: 0.5962786, y: 0.032766327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de6b6c60b9b6f84dae9cb15094fc2a5
+      internalID: 1696863215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blender_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 54
+        width: 455
+        height: 204
+      alignment: 9
+      pivot: {x: 0.2851435, y: 0.535941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82863688840ba7b40a3f79d57822044d
+      internalID: -337893401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -116,7 +179,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blender_0: 1866785446
+      Blender_1: 1696863215
+      Blender_2: -337893401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
