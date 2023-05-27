@@ -2,6 +2,7 @@ using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class CustomerHandler : SingletonMonoBehaviour<CustomerHandler>
 {
@@ -24,8 +25,17 @@ public class CustomerHandler : SingletonMonoBehaviour<CustomerHandler>
 
         if (activeCustomerIndex >= customerPool.Length) Start();
 
-        //TODO : Movement
-        //TODO : Generate New BG character
+        for (int i = 1; i < customersList.Count; i++)
+        {
+            customersList[i].transform.DOMove(waitingPos[i].position, 0.5f).SetEase(Ease.InOutSine);
+        }
+        customersList[0].transform.position = waitingPos.Last().position;
+        customersList[0].LoadRandomCharacter();
+
+        var temp = customersList[0];
+        customersList.RemoveAt(0);
+        customersList.Add(temp);
+
     }
 
 }

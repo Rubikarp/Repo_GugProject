@@ -22,6 +22,11 @@ public class Customer : MonoBehaviour
         if(data is null) return;
         LoadCharacter(data);
     }
+    public void LoadRandomCharacter()
+    {
+        if (data is null) return;
+        LoadCharacter(data);
+    }
     public void LoadCharacter(CustomerData customer)
     {
         hair.sprite = data.HairOrHat;

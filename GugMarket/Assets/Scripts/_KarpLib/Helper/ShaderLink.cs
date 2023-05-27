@@ -46,9 +46,9 @@ namespace RiverFlow.Core
         }
 
         public void UpdateProperty((string key, float value) shaderData) => UpdateProperty(new (string, float)[1] { shaderData });
-        public void UpdateProperty((string key, Texture2D value) shaderData) => UpdateProperty(new (string, Texture2D)[1] { shaderData });
         public void UpdateProperty((string key, Vector2 value) shaderData) => UpdateProperty(new (string, Vector4)[1] { shaderData });
         public void UpdateProperty((string key, Vector3 value) shaderData) => UpdateProperty(new (string, Vector4)[1] { shaderData });
         public void UpdateProperty((string key, Vector4 value) shaderData) => UpdateProperty(new (string, Vector4)[1] { shaderData });
+        public void UpdateProperty((string key, Texture2D value) shaderData) => UpdateProperty(new (string, Texture2D)[1] { shaderData });
     }
 }

@@ -14,6 +14,7 @@ public class InteractArea : SingletonMonoBehaviour<InteractArea>
 
     [SerializeField] public KitchenHandler kitchen;
     [SerializeField] public Transform cursor;
+    [SerializeField] public float multiplier = .1f;
     [SerializeField] public Vector2 axisMultiplier = Vector2.one;
 
     void OnValidate()
@@ -28,7 +29,9 @@ public class InteractArea : SingletonMonoBehaviour<InteractArea>
     void Update()
     {
         var newPos = new Vector2(kitchen.currentDish.stat.axisSweetSalty, kitchen.currentDish.stat.axisSpicyFleshy);
-        cursor.localPosition = Vector2.Lerp(cursor.localPosition, newPos * axisMultiplier, Time.deltaTime);
+        newPos *= axisMultiplier * multiplier;
+        newPos = Vector2.ClampMagnitude(newPos, 10);
+        cursor.localPosition = Vector2.Lerp(cursor.localPosition, newPos, Time.deltaTime);
     }
 
     public Vector3 GetMousePos()
