@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6a22be372d31e64db2c28ae405eee64, type: 3}
   m_Name: SCO_Request 1
   m_EditorClassIdentifier: 
-  linkedRequest: 
+  linkedRequest: dfgdfhqdgsfgnqgfdb
   aimedRecipe: {fileID: 11400000, guid: aa1e757dfd3e859488059b260b76f649, type: 2}
