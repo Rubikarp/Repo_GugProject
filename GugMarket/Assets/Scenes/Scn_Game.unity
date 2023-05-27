@@ -303,8 +303,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Reset
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
+  m_sharedMaterial: {fileID: 3920833887733375346, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -328,12 +328,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 138.8
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 258
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -907,6 +907,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1044871883}
+        m_TargetAssemblyTypeName: CustomerHandler, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1610,21 +1622,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4462332a6ff2a334a805a4e6055ed9cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customerPool:
-  - {fileID: 11400000, guid: 496dea023cc66494f8f1ccd69da99090, type: 2}
-  - {fileID: 11400000, guid: 4c55393d8a1e0304196948f0fcb38c15, type: 2}
-  - {fileID: 11400000, guid: 3211bf507446da14e8236318584aab3d, type: 2}
   customersList:
+  - {fileID: 701390205}
   - {fileID: 1367104641}
   - {fileID: 1352753671}
   - {fileID: 1087859827}
-  - {fileID: 701390205}
   waitingPos:
   - {fileID: 775546539}
   - {fileID: 209353831}
   - {fileID: 746837542}
   - {fileID: 586634229}
-  activeCustomerIndex: 0
 --- !u!224 &483449780 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3191027564860363998, guid: 1ecfd0582124fed44b71f9bce8f2d7bd, type: 3}
@@ -1799,8 +1806,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Down
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
+  m_sharedMaterial: {fileID: 3920833887733375346, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1824,12 +1831,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 77.6
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 258
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2744,9 +2751,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 926c16fb1a4d2954b92e235b92755810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requestPool: []
+  requestPool:
+  - {fileID: 11400000, guid: c3ca9d7560ea8134f8a676102e6dbbed, type: 2}
+  - {fileID: 11400000, guid: ff6c58d63a30a6f4c92a0e74180ca906, type: 2}
+  OnDayEnd:
+    m_PersistentCalls:
+      m_Calls: []
   activeRequest: {fileID: 11400000, guid: c3ca9d7560ea8134f8a676102e6dbbed, type: 2}
   requestTextArea: {fileID: 1619240425}
+  index: 0
 --- !u!224 &1059973951 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3191027564860363998, guid: 1ecfd0582124fed44b71f9bce8f2d7bd, type: 3}
@@ -3794,8 +3807,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
+  m_sharedMaterial: {fileID: 3920833887733375346, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3824,7 +3837,7 @@ MonoBehaviour:
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 258
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -3956,8 +3969,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813105746}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 14.5, z: -10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4099,8 +4112,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: To Map
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
+  m_sharedMaterial: {fileID: 3920833887733375346, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4124,12 +4137,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 65.8
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 258
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -4395,8 +4408,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Serve Soup
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
+  m_sharedMaterial: {fileID: 3920833887733375346, guid: 322b84d23c0ccc2478557126325b5b89, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4420,12 +4433,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 258
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 258
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512

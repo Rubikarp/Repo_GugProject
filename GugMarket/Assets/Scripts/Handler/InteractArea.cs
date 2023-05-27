@@ -30,7 +30,7 @@ public class InteractArea : SingletonMonoBehaviour<InteractArea>
     {
         var newPos = new Vector2(kitchen.currentDish.stat.axisSweetSalty, kitchen.currentDish.stat.axisSpicyFleshy);
         newPos *= axisMultiplier * multiplier;
-        newPos = Vector2.ClampMagnitude(newPos, 10);
+        newPos = Vector2.ClampMagnitude(newPos, 5);
         cursor.localPosition = Vector2.Lerp(cursor.localPosition, newPos, Time.deltaTime);
     }
 
