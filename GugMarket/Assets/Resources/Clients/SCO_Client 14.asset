@@ -9,12 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 850d4106a7e338645b720c437aedad29, type: 3}
-  m_Name: SCO_Plat 3
+  m_Script: {fileID: 11500000, guid: db053c015beb8d546a56090fbac157de, type: 3}
+  m_Name: SCO_Client 14
   m_EditorClassIdentifier: 
-  ingredients: []
-  stat:
-    axisSweetSalty: 1
-    axisSpicyFleshy: -1
-    axisThickeness: 0
-    axisWeight: 3
