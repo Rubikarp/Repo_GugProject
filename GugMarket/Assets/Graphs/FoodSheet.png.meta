@@ -1,0 +1,698 @@
+fileFormatVersion: 2
+guid: 3f658ea2b86992f4daeee6063256794f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoodSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 173.23242, y: -100.23448}
+        - {x: 131.7041, y: -89.558624}
+        - {x: 93.73535, y: -23.131035}
+        - {x: 65.25879, y: 24.317242}
+        - {x: 16.611328, y: 86}
+        - {x: -26.103516, y: 108.53793}
+        - {x: -52.20703, y: 108.53793}
+        - {x: -46.274414, y: 140.56552}
+        - {x: -59.32617, y: 152.42758}
+        - {x: -103.22754, y: 152.42758}
+        - {x: -110.34668, y: 101.42069}
+        - {x: -142.38281, y: 133.44827}
+        - {x: -160.18066, y: 126.33104}
+        - {x: -176.79199, y: 114.46897}
+        - {x: -180.35156, y: 97.86207}
+        - {x: -180.35156, y: 65.83448}
+        - {x: -147.1289, y: 43.29655}
+        - {x: -140.00977, y: -21.944828}
+        - {x: -91.362305, y: -78.88276}
+        - {x: -18.984375, y: -134.63449}
+        - {x: 10.678711, y: -148.86897}
+        - {x: 67.631836, y: -169.03448}
+        - {x: 135.26367, y: -169.03448}
+        - {x: 155.43457, y: -165.47586}
+        - {x: 175.60547, y: -145.31035}
+        - {x: 180.35156, y: -127.51724}
+        - {x: 180.35156, y: -108.53793}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 5dba5ed8baf0f7347b6c729a85356842
+      internalID: 1435201945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 602
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 202.1045, y: -110.91035}
+        - {x: 202.1045, y: -94.30345}
+        - {x: 139.21877, y: -62.275864}
+        - {x: 116.67482, y: -53.972416}
+        - {x: 109.55568, y: 37.365517}
+        - {x: 104.809586, y: 75.32414}
+        - {x: 31.245129, y: 104.97931}
+        - {x: 1.5820433, y: 104.97931}
+        - {x: -81.474594, y: 86}
+        - {x: -100.45897, y: 72.95173}
+        - {x: -127.74901, y: 59.90345}
+        - {x: -168.0908, y: 18.386208}
+        - {x: -163.34471, y: 2.9655173}
+        - {x: -124.18944, y: -58.717243}
+        - {x: -165.71776, y: -87.18621}
+        - {x: -196.56737, y: -84.8138}
+        - {x: -202.49998, y: -90.74483}
+        - {x: -202.49998, y: -103.793106}
+        - {x: -188.2617, y: -119.2138}
+        - {x: -164.53123, y: -129.88966}
+        - {x: -34.01366, y: -186.82759}
+        - {x: -16.215809, y: -189.2}
+        - {x: 5.1416135, y: -189.2}
+        - {x: 11.074231, y: -186.82759}
+        - {x: 58.535168, y: -164.28966}
+        - {x: 173.62794, y: -131.07587}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 140223da0b0f179498bd57cd0d4e3716
+      internalID: -258701632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_2
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 602
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 177.58304, y: -215.29655}
+        - {x: 181.14261, y: -212.92415}
+        - {x: 181.14261, y: -210.55173}
+        - {x: 177.58304, y: -202.24828}
+        - {x: 159.78519, y: -107.35172}
+        - {x: 147.91995, y: -74.13793}
+        - {x: 133.68167, y: -63.46207}
+        - {x: 67.23635, y: -68.2069}
+        - {x: 70.79592, y: -39.73793}
+        - {x: 106.391624, y: -33.806896}
+        - {x: 98.08596, y: -5.337931}
+        - {x: 128.93558, y: 20.758621}
+        - {x: 99.272484, y: 23.131035}
+        - {x: 69.6094, y: 20.758621}
+        - {x: 56.55764, y: 10.082759}
+        - {x: 19.775415, y: -23.131035}
+        - {x: 35.20022, y: 45.66897}
+        - {x: -26.498999, y: 155.9862}
+        - {x: -38.364235, y: 173.77931}
+        - {x: -100.06345, y: 173.77931}
+        - {x: -140.40524, y: 142.93793}
+        - {x: -167.69528, y: 91.93104}
+        - {x: -167.69528, y: 51.600002}
+        - {x: -155.83005, y: 21.944828}
+        - {x: -98.87693, y: -58.717243}
+        - {x: -142.77829, y: -118.02759}
+        - {x: -127.35349, y: -146.49655}
+        - {x: -122.6074, y: -150.05518}
+        - {x: -97.69041, y: -138.1931}
+        - {x: -91.75779, y: -147.68275}
+        - {x: -81.07908, y: -159.54483}
+        - {x: -76.332985, y: -159.54483}
+        - {x: -79.892555, y: -132.26207}
+        - {x: -78.70603, y: -50.413795}
+        - {x: -34.804665, y: -112.09655}
+        - {x: -1.5820072, y: -139.37932}
+        - {x: 100.45901, y: -125.14483}
+        - {x: 105.2051, y: -177.33794}
+        - {x: 132.49515, y: -233.08966}
+        - {x: 150.293, y: -235.46207}
+        - {x: 177.58304, y: -235.46207}
+        - {x: 178.76956, y: -230.71724}
+        - {x: 166.90433, y: -221.22758}
+        - {x: 162.15823, y: -218.85518}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 7eed73d8646da6e419d847f037f516f5
+      internalID: 666864347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 602
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 145.94238, y: 56.34483}
+        - {x: 93.73535, y: 83.62759}
+        - {x: 15.424805, y: 110.91035}
+        - {x: -27.29004, y: 118.02759}
+        - {x: -67.631836, y: 118.02759}
+        - {x: -80.68359, y: 110.91035}
+        - {x: -153.06152, y: 65.83448}
+        - {x: -168.48633, y: 51.600002}
+        - {x: -168.48633, y: 38.551723}
+        - {x: -167.2998, y: 34.993103}
+        - {x: -154.24805, y: 7.710345}
+        - {x: -151.875, y: 4.1517243}
+        - {x: -128.14453, y: -103.793106}
+        - {x: -103.22754, y: -127.51724}
+        - {x: -58.13965, y: -125.14483}
+        - {x: -30.84961, y: -134.63449}
+        - {x: 52.20703, y: -134.63449}
+        - {x: 134.07715, y: -119.2138}
+        - {x: 153.06152, y: -108.53793}
+        - {x: 153.06152, y: 36.17931}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 1eb28c289959c1f41887b76eed9be453
+      internalID: 1631539327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 602
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 127.35356, y: 12.455173}
+        - {x: 91.75786, y: 72.95173}
+        - {x: 64.46782, y: 96.675865}
+        - {x: 55.5, y: 177}
+        - {x: 12.5, y: 175}
+        - {x: -16.215773, y: 104.97931}
+        - {x: -42.319286, y: 80.06897}
+        - {x: -66.5, y: 120}
+        - {x: -110.5, y: 120}
+        - {x: -125.5, y: 72}
+        - {x: -81.5, y: 29}
+        - {x: -101.64546, y: 2.9655173}
+        - {x: -115.88374, y: -17.2}
+        - {x: -119.44331, y: -48.04138}
+        - {x: -119.44331, y: -74.13793}
+        - {x: -114.69722, y: -87.18621}
+        - {x: -99.272415, y: -116.841385}
+        - {x: -52.997997, y: -153.6138}
+        - {x: -6.7235847, y: -169.03448}
+        - {x: 13.447314, y: -169.03448}
+        - {x: 34.804737, y: -166.66208}
+        - {x: 71.58696, y: -152.42758}
+        - {x: 102.43657, y: -129.88966}
+        - {x: 127.35356, y: -74.13793}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 93d1a6980b6d6ef498a109fea261f6b8
+      internalID: -417622062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -55.7666, y: -94.89655}
+        - {x: -35.595703, y: -81.848274}
+        - {x: -15.424805, y: -35.58621}
+        - {x: 17.797852, y: 41.517242}
+        - {x: 15.424805, y: -3.5586207}
+        - {x: 23.730469, y: -11.862069}
+        - {x: 52.20703, y: -3.5586207}
+        - {x: 54.58008, y: 10.675862}
+        - {x: 56.953125, y: 36.772415}
+        - {x: 68.81836, y: 106.75862}
+        - {x: 122.211914, y: 153.02069}
+        - {x: 142.38281, y: 188.6069}
+        - {x: 145.94238, y: 209.95862}
+        - {x: 148.31543, y: 226.56552}
+        - {x: 148.31543, y: 247.91725}
+        - {x: 142.38281, y: 271.6414}
+        - {x: 123.39844, y: 282.31726}
+        - {x: 94.921875, y: 282.31726}
+        - {x: 88.98926, y: 279.94482}
+        - {x: 73.56445, y: 270.45517}
+        - {x: -14.238281, y: 204.02759}
+        - {x: -28.476562, y: 175.55862}
+        - {x: -52.20703, y: 142.34483}
+        - {x: -123.39844, y: 43.889656}
+        - {x: -90.17578, y: 37.958622}
+        - {x: -104.41406, y: -4.7448277}
+        - {x: -112.71973, y: -74.73103}
+        - {x: -149.50195, y: -96.08276}
+        - {x: -149.50195, y: -161.32414}
+        - {x: -140.00977, y: -164.88277}
+        - {x: -122.211914, y: -164.88277}
+        - {x: -147.1289, y: -214.70345}
+        - {x: -141.19629, y: -284.68967}
+        - {x: -113.90625, y: -284.68967}
+        - {x: -62.885742, y: -238.4276}
+        - {x: -32.036133, y: -185.04828}
+        - {x: -21.357422, y: -132.85518}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 75f7b5ca3fff5cd439622ea0219e2417
+      internalID: 1234416445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 126.16701, y: -53.37931}
+        - {x: 122.60744, y: -11.862069}
+        - {x: 117.86134, y: -1.1862069}
+        - {x: 95.3174, y: 28.468966}
+        - {x: 120.23439, y: 18.979311}
+        - {x: 181.93361, y: 24.910345}
+        - {x: 189.05275, y: 40.331036}
+        - {x: 189.05275, y: 62.868965}
+        - {x: 186.6797, y: 94.89655}
+        - {x: 171.2549, y: 115.06207}
+        - {x: 143.96486, y: 148.27586}
+        - {x: 139.21877, y: 175.55862}
+        - {x: 109.55568, y: 193.35173}
+        - {x: 54.975597, y: 213.51724}
+        - {x: 30.058605, y: 213.51724}
+        - {x: 8.701184, y: 196.91035}
+        - {x: 3.9550903, y: 148.27586}
+        - {x: 12.260755, y: 87.77931}
+        - {x: -31.640614, y: 99.64138}
+        - {x: -68.42284, y: 98.45518}
+        - {x: -108.76463, y: 80.66207}
+        - {x: -151.47948, y: 21.351725}
+        - {x: -151.47948, y: -32.027588}
+        - {x: -143.17381, y: -58.124138}
+        - {x: -111.13768, y: -128.11035}
+        - {x: -147.9199, y: -134.04138}
+        - {x: -145.54686, y: -143.53104}
+        - {x: -133.68163, y: -151.83449}
+        - {x: -119.443344, y: -166.06897}
+        - {x: -112.3242, y: -168.44138}
+        - {x: -69.60936, y: -168.44138}
+        - {x: 15.820325, y: -147.08966}
+        - {x: 94.130875, y: -104.38621}
+        - {x: 107.18263, y: -87.77931}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 62931a3d41d8abb428dac0dc19086875
+      internalID: -313488671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 96.89944, y: -37.958622}
+        - {x: 85.0342, y: -13.048276}
+        - {x: 117.070335, y: -8.303449}
+        - {x: 123.00295, y: 8.303449}
+        - {x: 119.44338, y: 33.213795}
+        - {x: 146.73343, y: 21.351725}
+        - {x: 149.10648, y: 0}
+        - {x: 176.39651, y: -8.303449}
+        - {x: 191.82132, y: 1.1862069}
+        - {x: 202.5, y: 16.606897}
+        - {x: 202.5, y: 49.82069}
+        - {x: 185.8887, y: 80.66207}
+        - {x: 125.376, y: 83.034485}
+        - {x: 83.84768, y: 110.317245}
+        - {x: 124.189476, y: 170.8138}
+        - {x: 107.57815, y: 189.7931}
+        - {x: 83.84768, y: 189.7931}
+        - {x: -32.431618, y: 136.4138}
+        - {x: -120.23435, y: 69.986206}
+        - {x: -172.44138, y: -27.282759}
+        - {x: -179.56052, y: -45.075863}
+        - {x: -179.56052, y: -84.22069}
+        - {x: -170.06833, y: -116.248276}
+        - {x: -139.21872, y: -162.51035}
+        - {x: -129.72653, y: -163.69655}
+        - {x: -21.752905, y: -163.69655}
+        - {x: 18.588892, y: -148.27586}
+        - {x: 79.101585, y: -109.131035}
+        - {x: 105.2051, y: -41.517242}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 69f2c7d7ebafdb34aa8fa03b50c3e983
+      internalID: -1567633017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 124.58496, y: -103.200005}
+        - {x: 130.51758, y: -79.47586}
+        - {x: 130.51758, y: -65.24138}
+        - {x: 105.600586, y: -20.165518}
+        - {x: 129.33105, y: 21.351725}
+        - {x: 130.51758, y: 32.027588}
+        - {x: 130.51758, y: 47.448277}
+        - {x: 123.39844, y: 67.61379}
+        - {x: 85.42969, y: 104.38621}
+        - {x: 43.901367, y: 129.29655}
+        - {x: -56.953125, y: 129.29655}
+        - {x: -115.09277, y: 94.89655}
+        - {x: -155.43457, y: 58.124138}
+        - {x: -168.48633, y: 10.675862}
+        - {x: -168.48633, y: -22.537931}
+        - {x: -166.11328, y: -28.468966}
+        - {x: -145.94238, y: -54.565517}
+        - {x: -124.58496, y: -67.61379}
+        - {x: -106.78711, y: -77.10345}
+        - {x: -87.802734, y: -162.51035}
+        - {x: -70.00488, y: -170.8138}
+        - {x: -34.40918, y: -170.8138}
+        - {x: -18.984375, y: -160.13794}
+        - {x: 40.341797, y: -160.13794}
+        - {x: 87.802734, y: -117.43449}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: f9c764084e3fb114fbc536cf7c642892
+      internalID: -1849334941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30.454054, y: -247.91725}
+        - {x: -10.2831545, y: -234.86897}
+        - {x: -26.894484, y: -202.84138}
+        - {x: -10.2831545, y: -180.30345}
+        - {x: 54.975636, y: -201.65518}
+        - {x: 62.094776, y: -247.91725}
+        - {x: 65.65434, y: -250.28966}
+        - {x: 70.40044, y: -250.28966}
+        - {x: 98.877, y: -199.28276}
+        - {x: 107.18266, y: -192.16553}
+        - {x: 107.18266, y: -176.74483}
+        - {x: 70.40044, y: -153.02069}
+        - {x: 31.245165, y: -172}
+        - {x: 31.245165, y: -124.55173}
+        - {x: 37.177784, y: -102.013794}
+        - {x: 44.296925, y: -26.096552}
+        - {x: 69.21391, y: -1.1862069}
+        - {x: 140.40532, y: 5.9310346}
+        - {x: 155.83012, y: 14.234483}
+        - {x: 162.94926, y: 46.26207}
+        - {x: 160.57622, y: 94.89655}
+        - {x: 189.05278, y: 136.4138}
+        - {x: 189.05278, y: 166.06897}
+        - {x: 184.30669, y: 192.16553}
+        - {x: 147.52446, y: 237.24138}
+        - {x: 113.11528, y: 252.66208}
+        - {x: 77.51958, y: 271.6414}
+        - {x: 26.499071, y: 271.6414}
+        - {x: -5.537061, y: 204.02759}
+        - {x: -41.132763, y: 202.84138}
+        - {x: -49.438427, y: 198.09656}
+        - {x: -64.863235, y: 83.034485}
+        - {x: -93.3398, y: 42.70345}
+        - {x: -132.49507, y: 10.675862}
+        - {x: -141.98726, y: -34.4}
+        - {x: -153.8525, y: -107.94483}
+        - {x: -157.41206, y: -143.53104}
+        - {x: -149.1064, y: -183.86208}
+        - {x: -176.39644, y: -188.6069}
+        - {x: -182.32906, y: -204.02759}
+        - {x: -182.32906, y: -217.07587}
+        - {x: -150.29292, y: -249.10345}
+        - {x: -149.1064, y: -250.28966}
+        - {x: -133.6816, y: -250.28966}
+        - {x: -108.7646, y: -233.68277}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 310f920bd5991ca4eb4f285a3a969924
+      internalID: 1943324495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoodSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 0
+        width: 405
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 94.52632, y: -9.4896555}
+        - {x: 70.79585, y: 22.537931}
+        - {x: 86.22066, y: 83.034485}
+        - {x: 61.30366, y: 112.68966}
+        - {x: 17.402296, y: 112.68966}
+        - {x: -26.499071, y: 93.71035}
+        - {x: -59.72173, y: 111.50345}
+        - {x: -96.50395, y: 103.200005}
+        - {x: -110.74223, y: 84.22069}
+        - {x: -113.11528, y: 72.35862}
+        - {x: -113.11528, y: 34.4}
+        - {x: -110.74223, y: 24.910345}
+        - {x: -98.877, y: 4.7448277}
+        - {x: -103.62309, y: -62.868965}
+        - {x: -66.840866, y: -115.06207}
+        - {x: -28.872118, y: -135.22758}
+        - {x: 35.200146, y: -150.64828}
+        - {x: 44.692333, y: -151.83449}
+        - {x: 77.91499, y: -151.83449}
+        - {x: 99.272415, y: -136.4138}
+        - {x: 102.831985, y: -119.8069}
+        - {x: 102.831985, y: -36.772415}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 5f05a9da72153ae4fb01536e9ac87383
+      internalID: 1956541380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FoodSheet_1: -258701632
+      FoodSheet_0: 1435201945
+      FoodSheet_3: 1631539327
+      FoodSheet_6: -313488671
+      FoodSheet_7: -1567633017
+      FoodSheet_8: -1849334941
+      FoodSheet_2: 666864347
+      FoodSheet_9: 1943324495
+      FoodSheet_4: -417622062
+      FoodSheet_5: 1234416445
+      FoodSheet_10: 1956541380
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

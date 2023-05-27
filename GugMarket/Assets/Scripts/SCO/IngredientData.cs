@@ -4,7 +4,7 @@ using UnityEngine;
 using NaughtyAttributes;
 
 [CreateAssetMenu(fileName = "SCO_Ingredient", menuName = "GugObject/Ingredient")]
-public class Ingredient : ScriptableObject
+public class IngredientData : ScriptableObject
 {
     public Sprite sprite;
     public Statistique stat;
