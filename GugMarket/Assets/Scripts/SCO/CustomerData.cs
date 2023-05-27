@@ -2,9 +2,9 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SCO_Client", menuName = "GugObject/Client")]
-public class Client : ScriptableObject
+public class CustomerData : ScriptableObject
 {
-    private Sprite Head;
-    private Sprite Body;
-    private Sprite HairOrHat;
+    public Sprite Head;
+    public Sprite Body;
+    public Sprite HairOrHat;
 }
