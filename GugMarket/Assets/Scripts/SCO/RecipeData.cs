@@ -2,11 +2,11 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SCO_Plat", menuName = "GugObject/Plat")]
-public class Recipe : ScriptableObject
+public class RecipeData : ScriptableObject
 {
-    [SerializeField] private List<Ingredient> ingredients = new();
-    public Ingredient[] Ingredients { get => ingredients.ToArray(); }
-    public void AddIngredients(Ingredient ingredient)
+    [SerializeField] private List<IngredientData> ingredients = new();
+    public IngredientData[] Ingredients { get => ingredients.ToArray(); }
+    public void AddIngredients(IngredientData ingredient)
     {
         ingredients.Add(ingredient);
         stat += ingredient.stat;

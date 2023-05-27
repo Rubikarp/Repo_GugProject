@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   stat:
-    axisSweetSalty: 0
-    axisSpicyFleshy: 0
-    axisThickeness: 0
-    axisWeight: 0
+    axisSweetSalty: 2.9
+    axisSpicyFleshy: 5.3
+    axisThickeness: 3.8
+    axisWeight: 8.29
