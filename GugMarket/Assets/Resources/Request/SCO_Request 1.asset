@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SCO_Request 1
   m_EditorClassIdentifier: 
   linkedRequest: 
-  aimedRecipe: {fileID: 0}
+  aimedRecipe: {fileID: 11400000, guid: aa1e757dfd3e859488059b260b76f649, type: 2}

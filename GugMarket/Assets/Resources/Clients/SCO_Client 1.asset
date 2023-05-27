@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db053c015beb8d546a56090fbac157de, type: 3}
   m_Name: SCO_Client 1
   m_EditorClassIdentifier: 
+  Head: {fileID: 21300000, guid: d6a44ab95b0def041a7929981a2c23a1, type: 3}
+  Body: {fileID: 21300000, guid: daf2ab606d4db0d4f9ecf4c02137d2a8, type: 3}
+  HairOrHat: {fileID: 21300000, guid: 0ccc508108fa6ed4fa11b4a467d7f609, type: 3}
