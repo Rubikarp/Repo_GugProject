@@ -1,4 +1,4 @@
-﻿using Karprod;
+﻿
 using UnityEditor;
 using UnityEngine;
 
@@ -33,6 +33,8 @@ public class SkinTonesPaletteSettingsProvider : SettingsProvider
 
     public static SkinTonesPalette CreateSettingsAsset()
     {
+        var trs = ScriptableObject.CreateInstance<SkinTonesPalette>();
+        /*
         var path = KarpToolUtilities.FindScriptFolder("SkinTonesPalette", true);
         if (!AssetDatabase.IsValidFolder(path + "Resources/"))
         {
@@ -42,11 +44,11 @@ public class SkinTonesPaletteSettingsProvider : SettingsProvider
         }
         path += "Resources/SkinTonesPalette.asset";
         Debug.Log(path);
-        var trs = ScriptableObject.CreateInstance<SkinTonesPalette>();
         AssetDatabase.CreateAsset(trs, path);
         //
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+        */
         return trs;
     }
 }

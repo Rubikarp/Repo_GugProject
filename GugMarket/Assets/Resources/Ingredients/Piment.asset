@@ -15,6 +15,6 @@ MonoBehaviour:
   sprite: {fileID: 1435201945, guid: 3f658ea2b86992f4daeee6063256794f, type: 3}
   stat:
     axisSweetSalty: 0
-    axisSpicyFleshy: 1
+    axisSpicyFleshy: -1
     axisThickeness: 0
     axisWeight: 1

@@ -13,7 +13,8 @@ public class WinLoose : MonoBehaviour
 
     public void Evaluate()
     {
-        if (request.activeRequest.aimedRecipe.GetDistance(kitchen.currentDish) < 5f)
+        Debug.Log(request.activeRequest.aimedRecipe.GetDistance(kitchen.currentDish));
+        if (request.activeRequest.aimedRecipe.GetDistance(kitchen.currentDish) < 2f)
         {
             OnHappy?.Invoke();
         }

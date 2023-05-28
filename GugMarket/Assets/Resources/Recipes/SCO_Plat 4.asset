@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredients: []
   stat:
-    axisSweetSalty: 0
-    axisSpicyFleshy: 0
+    axisSweetSalty: 1
+    axisSpicyFleshy: 2
     axisThickeness: 0
     axisWeight: 0

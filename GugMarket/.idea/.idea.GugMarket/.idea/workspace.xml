@@ -30,6 +30,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../../../Build\GugMarket.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.2.3f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\m.sinnesael\Documents\GitHub\Repo_GugProject\GugMarket -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -72,7 +80,9 @@
       <workItem from="1685275306678" duration="245000" />
       <workItem from="1685275629438" duration="1077000" />
       <workItem from="1685277356395" duration="8000" />
-      <workItem from="1685283586436" duration="1160000" />
+      <workItem from="1685283586436" duration="1753000" />
+      <workItem from="1685289638197" duration="589000" />
+      <workItem from="1685290282517" duration="681000" />
     </task>
     <servers />
   </component>

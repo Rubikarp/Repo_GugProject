@@ -17,9 +17,8 @@ public class RecipeData : ScriptableObject
         float result = 0f;
         result += Mathf.Abs(stat.axisSpicyFleshy - other.stat.axisSpicyFleshy);
         result += Mathf.Abs(stat.axisSweetSalty - other.stat.axisSweetSalty);
-        result += Mathf.Abs(stat.axisThickeness - other.stat.axisThickeness);
-        result += Mathf.Abs(stat.axisWeight - other.stat.axisWeight);
-
+        //result += Mathf.Abs(stat.axisThickeness - other.stat.axisThickeness);
+        //result += Mathf.Abs(stat.axisWeight - other.stat.axisWeight);
         return result;
     }
 
