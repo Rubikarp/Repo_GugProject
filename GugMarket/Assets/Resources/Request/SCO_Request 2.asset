@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6a22be372d31e64db2c28ae405eee64, type: 3}
   m_Name: SCO_Request 2
   m_EditorClassIdentifier: 
-  linkedRequest: "\"Il fait froid ce soir j'ai l'impression...je voudrais bien une
-    Soupe assez relev\xE9e avec une touche sucr\xE9e\""
+  linkedRequest: "\"Ma soupe c'est le Stuuuuuuuuuudio, je veux une soupe un peu \xE9pic\xE9e
+    et sucr\xE9e comme le Studio\""
   aimedRecipe: {fileID: 11400000, guid: efddb6a0b151b2342bce02c4617cd71c, type: 2}

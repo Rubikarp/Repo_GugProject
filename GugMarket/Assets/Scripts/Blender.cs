@@ -8,6 +8,7 @@ public class Blender : MonoBehaviour
 {
     public UnityEvent OnAddedElement;
     public Animator anim;
+    public AudioSource audio;
     private void Awake()
     {
         GetComponent<Collider2D>().isTrigger = true;
@@ -17,6 +18,7 @@ public class Blender : MonoBehaviour
     {
         if (collision.GetComponent<Ingredient>())
         {
+            audio.Play();
             anim.Play("BlenderFill");
             KitchenHandler.Instance.currentDish.AddIngredients(collision.GetComponent<Ingredient>().data);
             Destroy(collision.gameObject);
