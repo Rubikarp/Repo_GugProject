@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class Blender : MonoBehaviour
 {
     public UnityEvent OnAddedElement;
+    public Animator anim;
     private void Awake()
     {
         GetComponent<Collider2D>().isTrigger = true;
@@ -16,9 +17,16 @@ public class Blender : MonoBehaviour
     {
         if (collision.GetComponent<Ingredient>())
         {
+            anim.Play("BlenderFill");
             KitchenHandler.Instance.currentDish.AddIngredients(collision.GetComponent<Ingredient>().data);
             Destroy(collision.gameObject);
             OnAddedElement?.Invoke();
+            
         }
+    }
+
+    public void Mixstp()
+    {
+        anim.Play("Belnder mix");
     }
 }

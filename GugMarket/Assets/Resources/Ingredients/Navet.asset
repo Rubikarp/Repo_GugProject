@@ -9,8 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a22be372d31e64db2c28ae405eee64, type: 3}
-  m_Name: SCO_Request 4
+  m_Script: {fileID: 11500000, guid: 0b107b94a5a94a843b886f201c94e9c0, type: 3}
+  m_Name: Navet
   m_EditorClassIdentifier: 
-  linkedRequest: 
-  aimedRecipe: {fileID: 11400000, guid: 53bab0e304a46844da0bd718bc56ea9f, type: 2}
+  sprite: {fileID: -313488671, guid: 3f658ea2b86992f4daeee6063256794f, type: 3}
+  stat:
+    axisSweetSalty: -1
+    axisSpicyFleshy: 0
+    axisThickeness: 0
+    axisWeight: 1

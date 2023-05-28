@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79911cc813ad0648bd6861b2e8f21ec, type: 3}
   m_Name: SCO_Plat 1
   m_EditorClassIdentifier: 
-  ingredients: []
+  ingredients:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   stat:
     axisSweetSalty: 0
-    axisSpicyFleshy: 0
+    axisSpicyFleshy: -3
     axisThickeness: 0
     axisWeight: 0
